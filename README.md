@@ -44,8 +44,10 @@ ResearchPilot
 ├── report_service.py
 ├── .gitignore
 └── README.md
+```
 
 ## 系统流程
+```
 上传多篇 PDF
 ↓
 提取论文文本并保留页码
@@ -59,15 +61,22 @@ DeepSeek 生成结构化论文分析
 AI 基于论文内容生成回答
 ↓
 展示论文名称、页码和原文证据
+```
 ## 快速开始
 安装依赖：
+```
 pip install -r requirements.txt
+```
 配置环境变量：
+```
 DEEPSEEK_API_KEY=your_api_key
+```
 启动项目：
+```
 streamlit run app.py
+```
 安全说明
-API Key 等敏感信息请保存在 .env 文件中。
-.env 和本地数据库文件不应上传到 GitHub。
+API Key 等敏感信息请保存在 `.env `文件中。
+`.env `和本地数据库文件不应上传到 GitHub。
 项目目标
 ResearchPilot 的目标不是替代研究者阅读论文，而是帮助用户更快理解多篇论文之间的研究主题、方法差异、关键结论和证据来源。
