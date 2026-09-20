@@ -44,7 +44,8 @@ ResearchPilot
 ├── report_service.py
 ├── .gitignore
 └── README.md
-系统流程
+
+## 系统流程
 上传多篇 PDF
 ↓
 提取论文文本并保留页码
@@ -58,7 +59,7 @@ DeepSeek 生成结构化论文分析
 AI 基于论文内容生成回答
 ↓
 展示论文名称、页码和原文证据
-快速开始
+## 快速开始
 安装依赖：
 pip install -r requirements.txt
 配置环境变量：
